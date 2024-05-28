@@ -1,7 +1,8 @@
-package com.example.languagechange
+package com.example.languagechange.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.languagechange.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

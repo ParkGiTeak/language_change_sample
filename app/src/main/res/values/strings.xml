@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">LanguageChange</string>
+    <string name="app_name" translatable="false">LanguageChange</string>
+
+    <!-- LanguageChange -->
+    <string name="language_change_title_text">언어 변경 기능</string>
+    <string name="bluetooth_kernect_text">언어 변경 확인</string>
+    <string name="next_activity_button_text">다음 페이지</string>
+    <string name="language_change_button_text">언어 변경 설정</string>
+    <!-- TODO: Remove or change this placeholder text -->
 </resources>
