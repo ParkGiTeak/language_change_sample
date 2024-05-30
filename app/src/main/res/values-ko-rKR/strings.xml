@@ -1,5 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">LanguageChange</string>
 
     <!-- LanguageChange MainActivity-->
     <string name="main_language_change_title_text">LanguageChange\n프로토타입</string>
@@ -7,7 +7,7 @@
     <string name="main_language_change_check_text">한국어</string>
     <string name="main_next_activity_button_text">다음 페이지</string>
 
-    <!-- LanguageChange Activity-->
+    <!-- LanguageChange Fragment-->
     <string name="language_change_title_text">언어 변경 기능</string>
     <string name="language_change_check_text">언어 변경 확인</string>
     <string name="language_change_button_text">언어 변경 설정</string>

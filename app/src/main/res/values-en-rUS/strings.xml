@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="language_change_title_text">언어 변경 기능</string>
-    <string name="bluetooth_kernect_text">LanguageChangeCheck</string>
-    <string name="next_activity_button_text">Next Page</string>
+
+    <!-- LanguageChange MainActivity-->
+    <string name="main_language_change_title_text">LanguageChange\nPrototype</string>
+    <string name="main_language_change_check_title_text">CurrentLanguage:</string>
+    <string name="main_language_change_check_text">English</string>
+    <string name="main_next_activity_button_text">NextPage</string>
+
+    <!-- LanguageChange Fragment-->
+    <string name="language_change_title_text">LanguageChangeFunction</string>
+    <string name="language_change_check_text">LanguageChangeCheck</string>
     <string name="language_change_button_text">LanguageChangeSettings</string>
+
+
 </resources>

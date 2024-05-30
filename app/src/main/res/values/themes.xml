@@ -13,4 +13,8 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+    <!-- LanguageChangeBottomSheet Style-->
+    <style name="AppModalStyle" parent="ThemeOverlay.MaterialComponents.BottomSheetDialog">
+        <item name="bottomSheetStyle">@drawable/coner_radius_bottomsheet</item>
+    </style>
 </resources>

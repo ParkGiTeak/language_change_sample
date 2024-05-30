@@ -8,7 +8,7 @@
     tools:context=".activity.LanguageChangeActivity">
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/tv_language_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
@@ -29,34 +29,24 @@
         android:padding="20dp" />
 
     <TextView
-        android:id="@+id/sample_text"
+        android:id="@+id/tv_current_language_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:layout_marginBottom="20dp"
         android:layout_gravity="center"
-        android:text="@string/bluetooth_kernect_text"
+        android:text="@string/language_change_check_text"
         android:textSize="25dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_language_title" />
 
     <Button
-        android:id="@+id/next_activity_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:padding="10dp"
-        android:text="@string/next_activity_button_text" />
-
-    <Button
-        android:id="@+id/language_change_button"
+        android:id="@+id/btn_language_change"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:padding="10dp"
         android:text="@string/language_change_button_text" />
-
-
 
 </LinearLayout>
