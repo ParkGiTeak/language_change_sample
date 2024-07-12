@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.languagechange.Listener.OnLanguageChangeListener
+import com.example.languagechange.R
 import com.example.languagechange.activity.LanguageChangeActivity
 import com.example.languagechange.adapter.LanguageChangeAdapter
 import com.example.languagechange.databinding.FragmentLanguageChangeBinding
@@ -26,7 +27,8 @@ class LanguageChangeFragment : BottomSheetDialogFragment() {
         return view
     }
 
-    //Todo 바텀시트 getThem()
+    override fun getTheme(): Int = R.style.LanguageBottomSheetDialogThem
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         setBottomSheetRecyclerView()

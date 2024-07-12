@@ -1,5 +1,6 @@
 package com.example.languagechange.adapter
 
+import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -33,6 +34,12 @@ class LanguageChangeAdapter(val languageList: List<LanguageModel>) : RecyclerVie
 
     inner class LanguageChangeViewHolder(private val binding: LanguageItemBinding): RecyclerView.ViewHolder(binding.root) {
         fun bind(safePosition: Int) {
+            if (languageList[safePosition].isLanguageChecked) {
+                binding.tvLanguageBottom.setTextColor(Color.parseColor("#009dff"))
+            } else {
+                binding.tvLanguageBottom.setTextColor(Color.parseColor("#8d8d8d"))
+            }
+
             binding.tvLanguageBottom.text = languageList[safePosition].language
             binding.root.setOnClickListener {
                 itemClickListener?.onChangeClick(safePosition)
